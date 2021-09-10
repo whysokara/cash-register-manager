@@ -14,10 +14,16 @@
         Enter the bill amount and cash recieved and know the minimum number of
         notes to return
       </p>
-      <label for="bill-amount">Bill amount:</label>
-      <input id="bill-amount" type="text" />
-      <label for="cash-given">Cash given::</label>
-      <input id="cash-given" type="number" />
+      <label for="bill-amount"
+        >Bill amount:
+        <input placeholder="Enter bill amount" id="bill-amount" type="text"
+      /></label>
+
+      <label for="cash-given"
+        >Cash given:
+        <input placeholder="Total cash recieved" id="cash-given" type="number"
+      /></label>
+
       <button id="checkBtn">Check</button>
       <p id="errorMessage">Enter bill amount</p>
       <table class="change-table">
